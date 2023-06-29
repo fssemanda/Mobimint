@@ -1,6 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/nav_graph.xml">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/baseFragment">
 
+
+    <fragment
+        android:id="@+id/baseFragment"
+        android:name="ug.mobimint.BaseFragment"
+        android:label="fragment_base"
+        tools:layout="@layout/fragment_base" >
+        <action
+            android:id="@+id/action_baseFragment_to_statementFragment"
+            app:destination="@id/statementFragment" />
+        <action
+            android:id="@+id/action_baseFragment_to_approvalsFragment"
+            app:destination="@id/approvalsFragment" />
+        <action
+            android:id="@+id/action_baseFragment_to_transactions"
+            app:destination="@id/transactions" />
+        <action
+            android:id="@+id/action_baseFragment_to_transactionDetails"
+            app:destination="@id/transactionDetails" />
+    </fragment>
+    <fragment
+        android:id="@+id/statementFragment"
+        android:name="ug.mobimint.transactionsclasses.StatementFragment"
+        android:label="fragment_statement"
+        tools:layout="@layout/fragment_statement" />
+    <fragment
+        android:id="@+id/approvalsFragment"
+        android:name="ug.mobimint.transactionsclasses.ApprovalsFragment"
+        android:label="fragment_approvals"
+        tools:layout="@layout/fragment_approvals" />
+    <fragment
+        android:id="@+id/transactions"
+        android:name="ug.mobimint.transactionsclasses.Transactions"
+        android:label="fragment_transactions"
+        tools:layout="@layout/fragment_transactions" />
+    <fragment
+        android:id="@+id/transactionDetails"
+        android:name="ug.mobimint.transactionsclasses.TransactionDetails"
+        android:label="fragment_transaction_details"
+        tools:layout="@layout/fragment_transaction_details" />
 </navigation>

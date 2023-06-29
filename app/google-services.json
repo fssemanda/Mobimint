@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "245275481291",
+    "project_id": "mobimint-2261f",
+    "storage_bucket": "mobimint-2261f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:245275481291:android:522c6b1e904b3d0bf8374e",
+        "android_client_info": {
+          "package_name": "ug.mobimint"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "245275481291-ft1igf0gv4hqqvrrr7g92o1nrjak0n4l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ug.mobimint",
+            "certificate_hash": "78f983718c53c68f73d4ad57013bb39fcf2c85bf"
+          }
+        },
+        {
+          "client_id": "245275481291-b24kev4vio2ft054iriee9opgo9h5inr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKjRcEEFzDadGBRbTJhq7oTx4GMOUwgfA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "245275481291-b24kev4vio2ft054iriee9opgo9h5inr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

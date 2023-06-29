@@ -3,31 +3,31 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/FirstFragment"
+            android:id="@+id/baseFragment"
             android:icon="@drawable/home_outline"
             android:iconTint="@color/white"
             android:title="Home"
             />
         <item
-            android:id="@+id/SecondFragment"
+            android:id="@+id/transactions"
             android:icon="@drawable/wifi_outline"
             android:iconTint="@color/white"
-            android:title="Pay"
-            />
-        <item
-            android:id="@+id/Transactions"
-            android:icon="@drawable/card_outline"
             android:title="Transactions"
             />
         <item
-            android:id="@+id/Account"
-            android:icon="@drawable/person_outline"
-            android:title="Account"
+            android:id="@+id/transactionDetails"
+            android:icon="@drawable/card_outline"
+            android:title="Details"
             />
         <item
-            android:id="@+id/Settings"
+            android:id="@+id/approvalsFragment"
+            android:icon="@drawable/person_outline"
+            android:title="Approvals"
+            />
+        <item
+            android:id="@+id/statementFragment"
             android:icon="@drawable/settings_outline"
-            android:title="Settings"
+            android:title="Statement"
             />
     </group>
 
